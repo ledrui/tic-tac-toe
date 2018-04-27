@@ -50,7 +50,7 @@ public class TicTacToe {
         System.out.println("Player: "+player);
 
         boolean playing = true;
-        
+
         while (playing) {
             System.out.println("Enter x and y coordinates:");
             int x = scan.nextInt() - 1;
